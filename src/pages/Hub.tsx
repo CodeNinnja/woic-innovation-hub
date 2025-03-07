@@ -1,11 +1,10 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import SectionTitle from '@/components/SectionTitle';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Code, Brain, Shield, Database, Cpu, Lightbulb, Users, MessageSquare, Briefcase, ScissorsSquare, Wrench, Battery, Car, Camera, Flag } from 'lucide-react';
+import { Code, Brain, Shield, Database, Cpu, Lightbulb, Users, MessageSquare, Briefcase, ScissorsSquare, Wrench, Battery, Car, Camera, Flag, Microscope } from 'lucide-react';
 
 const Hub = () => {
   return (
@@ -519,3 +518,4 @@ const Hub = () => {
 };
 
 export default Hub;
+
